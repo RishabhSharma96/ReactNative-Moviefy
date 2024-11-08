@@ -3,6 +3,7 @@ import { View, ScrollView, Text, ActivityIndicator } from 'react-native';
 import { useFonts } from 'expo-font';
 import { LinearGradient } from 'expo-linear-gradient';
 import Topper from "../components/Topper.jsx";
+import Player from "../components/Player.jsx";
 import "../global.css";
 import { StatusBar } from 'expo-status-bar';
 
@@ -30,6 +31,9 @@ const App = () => {
           <Topper />
         </View>
 
+        <View>
+          <Player />
+        </View>
 
 
       </LinearGradient>
